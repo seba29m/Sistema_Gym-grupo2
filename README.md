@@ -17,9 +17,7 @@ En la aplicación del GYM, se van a encontrar con dos archivos: el primero (Func
 
 En el segundo archivo (PruebaGym), se verán reflejados los resultados invocando el archivos de funciones modularizadas.
 
-La modularización en este caso se refiere a dividir la funcionalidad en métodos o funciones más pequeñas y específicas, lo que hace que el código sea más legible, mantenible y reutilizable.
-
-Aquí está la explicación de los métodos de la clase Gimnasio:
+La modularización en este caso se refiere a dividir la funcionalidad en métodos o funciones más pequeñas y específicas, lo que hace que el código sea más legible, mantenible y reutilizable. Aquí está la explicación de las funciones:
 
 __init__(self): Este es el método de inicialización de la clase. Actualmente no realiza ninguna operación específica, solo pasa.
 
