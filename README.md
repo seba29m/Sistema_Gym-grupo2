@@ -17,4 +17,15 @@ En la aplicación del GYM, se van a encontrar con dos archivos: el primero (Func
 
 En el segundo archivo (PruebaGym), se verán reflejados los resultados invocando el archivos de funciones modularizadas.
 
+La modularización en este caso se refiere a dividir la funcionalidad en métodos o funciones más pequeñas y específicas, lo que hace que el código sea más legible, mantenible y reutilizable.
+
+Aquí está la explicación de los métodos de la clase Gimnasio:
+
+__init__(self): Este es el método de inicialización de la clase. Actualmente no realiza ninguna operación específica, solo pasa.
+
+saludar(self, dni): Este método toma un argumento dni (Documento Nacional de Identidad) y simplemente imprime un saludo genérico a los clientes del gimnasio.
+
+puede_ingresar_al_gimnasio(self, tiene_certificado): Este método verifica si un cliente tiene un certificado médico para ingresar al gimnasio. Toma un argumento tiene_certificado, que se espera que sea una cadena que represente "sí" o "no". Dependiendo de la respuesta, devuelve un mensaje correspondiente indicando si el cliente puede o no puede ingresar al gimnasio.
+
+elegir_actividad(self): Este método permite al cliente elegir una actividad del gimnasio. Presenta una lista de actividades disponibles, le pide al usuario que ingrese el número correspondiente a la actividad que desea realizar, y luego devuelve un mensaje indicando la actividad seleccionada.
 
